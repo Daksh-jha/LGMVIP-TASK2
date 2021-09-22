@@ -47,6 +47,6 @@ import "./App.css";
   ):(<div classname="loaders">Fetching data.....Please wait </div>)):(<> </>)
   }
   </div>
-  );
+  ); 
 }
 export default App;
