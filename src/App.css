@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #299fe7;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 1365px;
+  cursor: pointer;
+  background-color: #fab809;
+}
+button {
+  top: 9%;
+  right: 50%;
+  position: absolute;
+  height: 7%;
+  font-size: 1.3rem;
+  border-radius: 15%;
+  cursor: pointer;
+  background-color: #a5b1b8;
+  font-style: italic;
+}
+button:hover {
+  background-color: #f1351c;
+  cursor: pointer;
+  color: white;
+}
+h2 {
+  margin: 4rem;
+  color: #6d1336;
+  font-family: "montserrat";
+  font-size: xx-large;
+}
+h2:hover {
+  color: black;
+  cursor: pointer;
+}
+p {
+  color: black;
+  font-weight: bold;
+}
+loaders {
+  color: black;
+  font-family: "Serif";
+  font-weight: bolder;
+  font-size: 300%;
+}
+h6 {
+  margin: 1rem;
+  color: #0e6655;
+  font-family: "montserrat";
+  font-size: xx-large;
+  padding-top: 60px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+}
+h6:hover {
+  color: black;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  margin: 1rem;
+  padding: 10px 90px;
+}
+.card {
+  padding: 1rem;
+  margin: 2rem;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  background-image: url("");
+  backdrop-filter: blur(15px);
+  border-radius: 10%;
+}
+.card:hover {
+  background-color: #dbe729;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+img {
+  border-radius: 100%;
+  margin: 2rem 0rem 1rem 0rem;
+}
